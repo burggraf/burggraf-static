@@ -1,6 +1,6 @@
 <script language="javascript" type="text/javascript">
  function hello () {
-    document.body.append('hello world');
+    document.body.append('hello world: ' + process.env.HELLO);
     const lineBreak = document.createElement('br');
     document.body.append(lineBreak);
  }
